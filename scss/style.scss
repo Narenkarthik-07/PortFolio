@@ -652,6 +652,17 @@ h1, h2, h3, h4, h5,
 			width: 100%;
 			position: relative;
 			z-index: 1;
+			min-height: 260px; // Ensures image displays on most screens
+            background-size: cover;
+            background-position: center;
+			@media (max-width: 767px) {
+           .img-about {
+           .img {
+           min-height: 180px;
+           height: 180px;
+           }
+          }
+        }
 		}
 	}
 	ul.about-info{
